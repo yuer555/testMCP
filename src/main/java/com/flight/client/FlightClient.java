@@ -89,5 +89,4 @@ public class FlightClient {
         BookingResponse bookingResponse = client.bookFlight("CA123", List.of(new Passenger("张三", "身份证", "123456789012345678", "2000-01-01", "中国", "男", "12345678901", "zhangsan@example.com")), "经济舱");
         System.out.println("预订结果：" + bookingResponse);
     }
-} 
-} 
+} } 
